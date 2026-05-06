@@ -1,8 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="CV">
-  <rect width="128" height="128" rx="30" fill="#ffd8c8"/>
-  <path d="M35 20h41l17 17v70H35z" fill="#fffaf6" stroke="#4f8290" stroke-width="6" stroke-linejoin="round"/>
-  <path d="M76 20v18h17" fill="none" stroke="#4f8290" stroke-width="6" stroke-linejoin="round"/>
-  <path d="M47 52h34M47 67h39M47 82h30" stroke="#715d56" stroke-width="7" stroke-linecap="round"/>
-  <path d="M43 101c12-18 30-18 42 0" fill="none" stroke="#2f9d98" stroke-width="8" stroke-linecap="round"/>
-  <circle cx="64" cy="91" r="8" fill="#4f8290"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="CV icon">
+  <rect width="128" height="128" rx="18" fill="#141419"/>
+
+  <path d="M36 19h42l18 18v72H36V19Z" fill="none" stroke="#f7f8f5" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M78 20v18h18" fill="none" stroke="#5e6672" stroke-width="7" stroke-linejoin="round"/>
+  <circle cx="57" cy="55" r="10" fill="#59c5b8"/>
+  <path d="M43 78c8-13 21-13 29 0" fill="none" stroke="#59c5b8" stroke-width="7" stroke-linecap="round"/>
+  <path d="M79 57h9M79 72h9M48 93h34" stroke="#f7f8f5" stroke-width="7" stroke-linecap="round"/>
 </svg>
