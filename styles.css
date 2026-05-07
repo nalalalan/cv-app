@@ -96,6 +96,17 @@ h1 {
   color: #ffffff;
 }
 
+.button.ao-home {
+  width: 42px;
+  padding: 0;
+}
+
+.button.ao-home img {
+  width: 23px;
+  height: 23px;
+  display: block;
+}
+
 .viewer {
   overflow: hidden;
   border: 1px solid var(--line);
