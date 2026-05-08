@@ -99,11 +99,14 @@ h1 {
 .button.ao-home {
   width: 42px;
   padding: 0;
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
 }
 
 .button.ao-home img {
-  width: 23px;
-  height: 23px;
+  width: 31px;
+  height: 31px;
   display: block;
 }
 
