@@ -41,6 +41,10 @@ a {
   margin-bottom: 18px;
 }
 
+.masthead > div {
+  flex: 1 1 auto;
+}
+
 .kicker {
   margin: 0 0 8px;
   color: var(--muted);
@@ -105,8 +109,8 @@ h1 {
 }
 
 .button.ao-home img {
-  width: 31px;
-  height: 31px;
+  width: 34px;
+  height: 34px;
   display: block;
 }
 
