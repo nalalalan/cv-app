@@ -151,6 +151,52 @@ h1 {
   box-shadow: 0 12px 30px rgba(23, 23, 23, .12);
 }
 
+.secondary-documents {
+  margin-top: 16px;
+}
+
+.secondary-document {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  max-width: 420px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--panel);
+  color: var(--ink);
+  text-decoration: none;
+  box-shadow: 0 10px 28px rgba(23, 23, 23, .06);
+}
+
+.secondary-document img {
+  width: 74px;
+  height: 96px;
+  object-fit: cover;
+  object-position: top;
+  border: 1px solid var(--line);
+  background: #ffffff;
+}
+
+.secondary-document span {
+  display: grid;
+  gap: 3px;
+}
+
+.secondary-document strong {
+  font-size: 15px;
+  line-height: 1.2;
+  text-transform: lowercase;
+}
+
+.secondary-document span span {
+  color: var(--accent-2);
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-transform: lowercase;
+}
+
 @media (max-width: 720px) {
   .shell {
     width: calc(100% - 24px);
@@ -178,6 +224,11 @@ h1 {
 
   .document-link {
     padding: 8px;
+  }
+
+  .secondary-document {
+    width: 100%;
+    max-width: none;
   }
 }
 
